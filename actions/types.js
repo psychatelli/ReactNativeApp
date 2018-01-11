@@ -1,0 +1,7 @@
+// export const DISPLAY_LCL_CARD_LIST = 'LCL_CARD_LIST';
+// export const DISPLAY_FCL_CARD_LIST = 'FCL_CARD_LIST';
+
+// export const SELECT_KEY_INDEX = 'SELECT_KEY_INDEX';
+
+
+export const USER_SELECTED = 'USER_SELECTED';
