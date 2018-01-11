@@ -1,6 +1,6 @@
 
 // ACTIONS > USER_ACTIONS.JS
-import USER_SELECTED from './types';
+import { USER_SELECTED } from './types';
 
 export const selectUser = (user) => {
     console.log("You clicked on user:", user.first);
