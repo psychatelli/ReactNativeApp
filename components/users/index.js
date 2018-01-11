@@ -10,10 +10,11 @@ import { selectUser } from '../../actions';
 class UserList extends Component {
 
     createListItems() {
+        const selectUserBinded = this.props.selectUser;
         return this.props.users.map((user) => {
             return (    
                 <View key={user.id}> 
-                    <Button onPress={function(){return selectUser(user);}}>
+                    <Button onPress={function(){return selectUserBinded(user);}}>
                         <Text>{user.first} {user.last}</Text>
                         <Icon  style={styles.TextLight} name='arrow-forward' android="md-arrow-forward"/>
                     </Button>
